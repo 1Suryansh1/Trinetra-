@@ -1,0 +1,14 @@
+{
+  "bbox": {
+    "west": 66.0,
+    "east": 99.0,
+    "south": 5.0,
+    "north": 38.0
+  },
+  "projection": "web-mercator",
+  "width": 1502,
+  "height": 1644,
+  "elevWidth": 375,
+  "elevHeight": 411,
+  "source": "Terrarium elevation tiles (AWS Open Data, SRTM/GMTED/ETOPO), zoom 5"
+}

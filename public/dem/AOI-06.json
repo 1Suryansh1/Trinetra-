@@ -1,0 +1,27 @@
+{
+  "id": "AOI-06",
+  "bbox": {
+    "west": 74.55,
+    "south": 32.5,
+    "east": 75.05,
+    "north": 32.9
+  },
+  "width": 1024,
+  "height": 1024,
+  "min": 245,
+  "max": 999,
+  "widthM": 46838,
+  "heightM": 44230,
+  "source": "Copernicus GLO-30 DEM (ESA, 30 m) + WBM water-body mask",
+  "tiles": [
+    "Copernicus_DSM_COG_10_N32_00_E074_00",
+    "Copernicus_DSM_COG_10_N32_00_E075_00"
+  ],
+  "resampled": "bilinear (DEM) / nearest (WBM)",
+  "wbmClasses": {
+    "0": "land",
+    "1": "ocean",
+    "2": "lake",
+    "3": "river"
+  }
+}
